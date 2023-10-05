@@ -101,7 +101,7 @@ public class LeerXMLconDOMClase {
             try {
                 DocumentBuilder parser = factory.newDocumentBuilder();
                 Document document = parser.newDocument();
-                
+
             } catch (ParserConfigurationException e) {
                 throw new RuntimeException(e);
             }

@@ -20,7 +20,7 @@ import static libs.CheckFiles.ficheroEscribible;
 
 public class EscribirXMLconDOM {
     public static void escribir(){
-        //pedimos la ruta del archivo a leer
+        //pedimos la ruta del archivo a escribir
         Path p = Path.of(Leer.pedirCadena("Introduzca la ruta del archivo a crear: "));
         //inicializamos las clases para usar la API DOM
         DocumentBuilder builder;
